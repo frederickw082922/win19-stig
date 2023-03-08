@@ -23,7 +23,7 @@ Documentation
 [Per-Host Configuration](https://www.lockdownenterprise.com/docs/per-host-lockdown-enterprise-configuration)<br>
 [Getting the Most Out of the Role](https://www.lockdownenterprise.com/docs/get-the-most-out-of-lockdown-enterprise)<br>
 [Wiki](https://github.com/ansible-lockdown/Windows-2019-STIG/wiki)<br>
-[Repo GitHub Page](https://ansible-lockdown.github.io/Windows-2019-STIG/)<br>
+[Repository GitHub Page](https://ansible-lockdown.github.io/Windows-2019-STIG/)<br>
 
 Requirements
 ------------
@@ -33,7 +33,7 @@ Requirements
   - [Ansible Getting Started](https://docs.ansible.com/ansible/latest/user_guide/intro_getting_started.html)
   - [Tower User Guide](https://docs.ansible.com/ansible-tower/latest/html/userguide/index.html)
   - [Ansible Community Info](https://docs.ansible.com/ansible/latest/community/index.html)
-- Functioning Ansible and/or Tower Installed, configured, and running. This includes all of the base Ansible/Tower configurations, needed packages installed, and infrastructure setup. 
+- Functioning Ansible and/or Tower Installed, configured, and running. This includes all of the base Ansible/Tower configurations,  needed packages installed, and infrastructure setup. 
 - Please read through the tasks in this role to gain an understanding of what each control is doing. Some of the tasks are disruptive and can have unintended consiquences in a live production system. Also familiarize yourself with the variables in the defaults/main.yml file or the [Main Variables Wiki Page](https://github.com/ansible-lockdown/Windows-2019-STIG/wiki/Main-Variables).
 
 **Technical Dependencies:**
@@ -58,7 +58,7 @@ Branches
 - **devel** - This is the default branch and the working development branch. Community pull requests will pull into this branch
 - **main** - This is the release branch
 - **reports** - This is a protected branch for our scoring reports, no code should ever go here
-- **gh-pages** - This is the github pages branch
+- **gh-pages** - This is the GitHub pages branch
 - **all other branches** - Individual community member branches
 
 Community Contribution
