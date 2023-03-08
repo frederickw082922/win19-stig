@@ -1,5 +1,4 @@
 # Release 1.0.0
-=============
 
 Added Changelog.md
 Updated Readme
