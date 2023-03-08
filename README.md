@@ -23,7 +23,7 @@ Documentation
 [Per-Host Configuration](https://www.lockdownenterprise.com/docs/per-host-lockdown-enterprise-configuration)<br>
 [Getting the Most Out of the Role](https://www.lockdownenterprise.com/docs/get-the-most-out-of-lockdown-enterprise)<br>
 [Wiki](https://github.com/ansible-lockdown/Windows-2019-STIG/wiki)<br>
-[Repo GitHub Page](https://ansible-lockdown.github.io/Windows-2019-STIG/)<br>
+[Repository GitHub Page](https://ansible-lockdown.github.io/Windows-2019-STIG/)<br>
 
 Requirements
 ------------
@@ -58,7 +58,7 @@ Branches
 - **devel** - This is the default branch and the working development branch. Community pull requests will pull into this branch
 - **main** - This is the release branch
 - **reports** - This is a protected branch for our scoring reports, no code should ever go here
-- **gh-pages** - This is the github pages branch
+- **gh-pages** - This is the GitHub pages branch
 - **all other branches** - Individual community member branches
 
 Community Contribution
