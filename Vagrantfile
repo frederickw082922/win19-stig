@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
   config.winrm.retry_delay = 120
   config.vm.provider "virtualbox" do |vb|
     vb.cpus = 2
-    vb.memory = 3096
+    vb.memory = 6096
   end
   config.vm.communicator = "winrm"
   config.vm.provision "ansible" do |ansible|
