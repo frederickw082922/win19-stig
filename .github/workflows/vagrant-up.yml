@@ -28,6 +28,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-vagrant-
       
+      - name: Update vagrant plugins
+        run: vagrant plugin update
+      
       - name: Show Vagrant version
         run: vagrant --version
         
