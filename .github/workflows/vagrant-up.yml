@@ -15,7 +15,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install test dependencies.
-        run: pip3 install vagrant ansible yamllint ansible-lint passlib lxml xmltodict jmespath pywinrm      
+        run: pip3 install python-vagrant ansible yamllint ansible-lint passlib lxml xmltodict jmespath pywinrm      
       
       - name: Cache Vagrant boxes
         uses: actions/cache@v2
