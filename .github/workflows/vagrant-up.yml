@@ -37,6 +37,9 @@ jobs:
       - name: Show Vagrant version
         run: vagrant --version
         
+      - name: Remove Config VirtualBox
+        run: rm -r ~/.config/VirtualBox
+        
       - name: Run vagrant up
         run: vagrant up
         env:
