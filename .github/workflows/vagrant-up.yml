@@ -30,7 +30,10 @@ jobs:
       
       - name: Install vagrant winrm-elevated plugins
         run: vagrant plugin install winrm-elevated
-      
+
+      - name: Install VirtualBox
+        run: sudo apt-get -y install virtualbox
+        
       - name: Show Vagrant version
         run: vagrant --version
         
