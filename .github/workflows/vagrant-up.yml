@@ -13,9 +13,12 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
+      
+      - name: Install Vagrant
+        run: sudo apt-get -y install vagrant
 
       - name: Install test dependencies.
-        run: pip install python-vagrant ansible yamllint ansible-lint passlib lxml xmltodict jmespath pywinrm      
+        run: pip install ansible yamllint ansible-lint passlib lxml xmltodict jmespath pywinrm      
       
       - name: Cache Vagrant boxes
         uses: actions/cache@v2
